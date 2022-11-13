@@ -1,4 +1,5 @@
 import { FC, useState } from 'react'
+import { Counter } from './Counter';
 
 
 const App:FC = () => {
@@ -12,8 +13,10 @@ const App:FC = () => {
       </header>
 
       <div className="card">
-
+        Hola
+        <Counter />
       </div>
+
     </div>
   )
 }
